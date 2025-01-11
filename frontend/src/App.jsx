@@ -2,6 +2,7 @@ import {BrowserRouter , Routes, Route} from "react-router-dom"
 import Layout from "./Layout";
 import Home from "./pages/Home";
 import Ragestation from "./pages/Registation";
+import DeshBoard from "./pages/DashBorad";
 
 
 const App=()=>{
@@ -13,6 +14,7 @@ const App=()=>{
     <Route index element={<Home/>}/>
     <Route path="home" element={<Home/>}/>
     <Route path="ragestation" element={<Ragestation/>}/>
+    <Route path="deshboard" element={<DeshBoard/>}/>
   
     
     </Route>
